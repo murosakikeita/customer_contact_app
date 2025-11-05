@@ -1,13 +1,32 @@
+# ===============================
+# Streamlit App Requirements
+# For: 問い合わせ対応自動化AIエージェント
+# ===============================
+
+# ---- Core Framework ----
 streamlit==1.39.0
-langchain==0.2.14
-openai==1.50.2
 python-dotenv==1.0.1
-slack_sdk==3.33.2
-chromadb==0.5.3
-tiktoken==0.8.0
-faiss-cpu==1.8.0.post1
-pandas==2.2.3
-numpy==1.26.4
 requests==2.32.3
 beautifulsoup4==4.12.3
+pandas==2.2.3
+numpy==1.26.4
+
+# ---- OpenAI / LangChain ----
+langchain==0.0.340
+openai==0.27.8
+tiktoken==0.8.0
+chromadb==0.5.3
+faiss-cpu==1.12.0
+
+# ---- Slack Integration ----
+slack_sdk==3.33.2
+
+# ---- Web Search (SerpAPI) ----
+google-search-results==2.4.2
 serpapi==0.1.5
+
+# ---- Optional Enhancements ----
+PyYAML==6.0.2
+certifi==2024.8.30
+idna==3.10
+urllib3==2.2.3
