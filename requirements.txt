@@ -1,0 +1,13 @@
+streamlit==1.39.0
+langchain==0.2.14
+openai==1.50.2
+python-dotenv==1.0.1
+slack_sdk==3.33.2
+chromadb==0.5.3
+tiktoken==0.8.0
+faiss-cpu==1.8.0.post1
+pandas==2.2.3
+numpy==1.26.4
+requests==2.32.3
+beautifulsoup4==4.12.3
+serpapi==0.1.5
